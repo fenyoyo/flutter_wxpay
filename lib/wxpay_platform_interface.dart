@@ -31,11 +31,11 @@ abstract class WxpayPlatform extends PlatformInterface {
     throw UnimplementedError('init() has not been implemented.');
   }
 
-  Future<void> payH5() {
+  Future<void> payH5(String url) {
     throw UnimplementedError('init() has not been implemented.');
   }
 
-  Future<void> payJsapi() {
+  Future<void> payJsapi(Map<String,dynamic> config) {
     throw UnimplementedError('init() has not been implemented.');
   }
 }

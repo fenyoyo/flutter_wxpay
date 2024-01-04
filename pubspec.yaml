@@ -1,7 +1,7 @@
 name: wxpay
-description: "A new Flutter plugin project."
+description: "微信支付,目前支持jsapi和h5"
 version: 0.0.1
-homepage:
+homepage: https://github.com/
 
 environment:
   sdk: '>=3.2.2 <4.0.0'
@@ -39,8 +39,6 @@ flutter:
       web:
         pluginClass: WxpayWeb
         fileName: wxpay_web.dart
-    assets:
-      - assets/js/wxpay.js
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

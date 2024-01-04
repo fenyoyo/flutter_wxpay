@@ -13,13 +13,13 @@ class MockWxpayPlatform
 
 
   @override
-  Future<void> payH5() {
+  Future<void> payH5(url) {
     // TODO: implement payH5
     throw UnimplementedError();
   }
 
   @override
-  Future<void> payJsapi() {
+  Future<void> payJsapi(config) {
     // TODO: implement payJsapi
     throw UnimplementedError();
   }
@@ -45,4 +45,5 @@ void main() {
 
     expect(await wxpayPlugin.getPlatformVersion(), '42');
   });
+
 }
